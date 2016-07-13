@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Tarffic</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Setings</string>
+    <string name="title">ป้ายจราจร ต้องรู้</string>
+    <string name="test">ทดสอบ</string>
+    <string name="about_me">About Me</string>
+
+</resources>

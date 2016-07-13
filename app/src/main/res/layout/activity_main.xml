@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.pcom_5.tarffic.MainActivity"
+    android:background="@drawable/bg11">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title"
+        android:id="@+id/txtTitle"
+        android:textSize="@dimen/h1"
+        android:textStyle="bold"
+        android:textColor="#b21010"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/about_me"
+        android:id="@+id/button"
+        android:layout_alignParentBottom="true" />
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/listView"
+        android:layout_alignTop="@+id/txtTitle"
+        android:layout_above="@+id/button"
+        android:layout_margin="20dp"
+        android:background="#a56d3636" />
+</RelativeLayout>
